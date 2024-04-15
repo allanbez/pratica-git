@@ -20,3 +20,9 @@ o parametro`a` adiciona todos os arquivos modificados ou nao ignorados ao commit
 git checkout -b novobranch
 ~~~
 o parametro `-b` alterna para `novobranch`criando o branch . o mesmo acontece com o comando `git switch` com o parametro`-c`.
+
+~~~bash
+git branch -d nomebranch
+git push --delete origin nomebranch
+~~~
+para apagar um branch e preciso apaga-lo localmente e depois propagar a deleçao para o repositorio remoto.(segundo comando).
