@@ -15,3 +15,8 @@ o parametro `--allow-empty` permite a criaçao de um commit vazio,para fins de t
 git commit -a
 ~~~
 o parametro`a` adiciona todos os arquivos modificados ou nao ignorados ao commit atual.
+
+~~~bash
+git checkout -b novobranch
+~~~
+o parametro `-b` alterna para `novobranch`criando o branch . o mesmo acontece com o comando `git switch` com o parametro`-c`.
